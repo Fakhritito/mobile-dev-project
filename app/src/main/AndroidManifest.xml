@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.storiesapp">
+    <application android:allowBackup="true" android:label="StoriesApp" android:supportsRtl="true">
+        <activity android:name=".ui.AddAuthorActivity"/>
+        <activity android:name=".ui.AuthorListActivity"/>
+        <activity android:name=".ui.AddCategoryActivity"/>
+        <activity android:name=".ui.CategoryListActivity"/>
+        <activity android:name=".ui.AddCountryActivity"/>
+        <activity android:name=".ui.CountryListActivity"/>
+        <activity android:name=".ui.AddEditStoryActivity"/>
+        <activity android:name=".ui.StoryDetailActivity"/>
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
